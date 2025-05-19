@@ -8,7 +8,7 @@ cargo install dialogtocli
 
 ## Usage
 ```txt
-Usage: <command> [options]
+Usage: <command>
 Commands:
   -h   Show this help message
   -s   Save a file
