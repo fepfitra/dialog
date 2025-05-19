@@ -2,6 +2,8 @@
 name = "dialog"
 version = "0.1.0"
 edition = "2024"
+description = "An application to open a dialog GUI and print it to stdout."
+license = "MIT"
 
 [dependencies]
 rfd = "0.15.3"
