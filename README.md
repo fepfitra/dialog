@@ -1,6 +1,11 @@
 # dialogtocli
 An application to open a dialog GUI and print it to stdout.
 
+## Installation
+```bash
+cargo install dialogtocli
+```
+
 ## Usage
 ```txt
 Usage: <command> [options]
