@@ -16,7 +16,7 @@ Commands:
   -d   Set a directory
 ```
 
-## Bind it to your facorite app
+## Bind it to your favorite app
 
 ### Bash
 ```bash
