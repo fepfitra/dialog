@@ -15,7 +15,7 @@ fn load_file() -> Option<PathBuf> {
 }
 
 fn help() {
-    println!("Usage: <command> [options]");
+    println!("Usage:dialogtocli <command>");
     println!("Commands:");
     println!("  -h   Show this help message");
     println!("  -s   Save a file");
@@ -49,6 +49,6 @@ fn main() {
     if let Some(path) = path {
         println!("{}", path.display());
     } else {
-        println!("/tmp/trash");
+        println!();
     }
 }
