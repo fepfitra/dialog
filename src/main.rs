@@ -57,6 +57,6 @@ fn main() {
 
         println!("{}", escaped_path);
     } else {
-        println!();
+        panic!("No file selected");
     }
 }
