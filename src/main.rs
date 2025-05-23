@@ -47,15 +47,7 @@ fn main() {
     };
 
     if let Some(path) = path {
-        let escape_chars = [' '];
-        let mut escaped_path = path.display().to_string();
-
-        escape_chars.iter().for_each(|&c| {
-            let escaped = format!("\\{}", c);
-            escaped_path = escaped_path.replace(c, &escaped);
-        });
-
-        println!("{}", escaped_path);
+        println!("{}", path.display());
     } else {
         panic!("No file selected");
     }
